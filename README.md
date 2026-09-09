@@ -1,8 +1,8 @@
-# Namer App ( Rebuilt )
+# Namer App — Rebuilt
 
 A redesigned and production-polished version of the official [Flutter Codelab Namer App](https://docs.flutter.dev/get-started/codelab).
 
-This branch (`my_namer_app`) is my personal rebuild — same core functionality, completely overhauled design, architecture, and build configuration.
+This branch (`my_namer_app`) is my personal rebuild; same core functionality, completely overhauled design, architecture, and build configuration.
 
 The original tutorial version lives on the `main` branch if you want to compare directly.
 
@@ -13,7 +13,7 @@ The original tutorial version lives on the `main` branch if you want to compare 
 **Design**
 - Custom color palette and typography replacing all default Flutter theming
 - Micro-interactions: animated heart button, double-tap to like, smooth transitions
-- Word history stream — tap any previous word to restore it
+- Word history stream, tap any previous word to restore it
 - Typographic watermark that cross-fades with the word history
 
 **Architecture**
@@ -21,7 +21,7 @@ The original tutorial version lives on the `main` branch if you want to compare 
 
 **Build**
 - R8 minification and resource shrinking enabled
-- ABI splitting applied — reduced APK size significantly
+- ABI splitting applied: reduced APK size significantly
 
 ---
 
@@ -51,8 +51,8 @@ flutter run
 
 | Branch | What it is |
 |---|---|
-| `main` | Original Flutter Codelab tutorial code |
-| `my_namer_app` | Rebuilt, production-polished version |
+| [`main`](https://github.com/Usmalik37/namer-app/tree/main) | Original Flutter Codelab tutorial code |
+| [`my_namer_app`](https://github.com/Usmalik37/namer-app/tree/my_namer_app) | Rebuilt, production-polished version |
 
 ---
 
