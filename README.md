@@ -41,9 +41,9 @@ This app was built to practice the following core Flutter fundamentals:
 
 | Branch | What it is |
 |---|---|
-| `main` | This — the original Flutter Codelab tutorial code |
-| `my_namer_app` | A fully rebuilt, production-polished version with custom design, modular architecture, and optimized build |
+| [`main`](https://github.com/Usmalik37/namer-app/tree/main) | This — the original Flutter Codelab tutorial code |
+| [`my_namer_app`](https://github.com/Usmalik37/namer-app/tree/my_namer_app) | A fully rebuilt, production-polished version with custom design, modular architecture, and optimized build |
 
 ## Project Status
 
-This is a learning project — built to understand Flutter basics, not intended for production use. See the `my_namer_app` branch for the rebuilt version.
+This is a learning project, built to understand Flutter basics, not intended for production use. See the `my_namer_app` branch for the rebuilt version.
