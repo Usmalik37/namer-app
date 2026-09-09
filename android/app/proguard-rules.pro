@@ -6,6 +6,14 @@
 -keep class io.flutter.**  { *; }
 -keep class io.flutter.plugins.**  { *; }
 
+# Flutter Play Store Deferred Components
+# The Flutter engine references Google Play Core for optional deferred components.
+# If Play Core is not in dependencies, R8 must be told to ignore these missing references.
+-dontwarn com.google.android.play.core.**
+-dontwarn com.google.android.play.core.splitcompat.**
+-dontwarn com.google.android.play.core.splitinstall.**
+-dontwarn com.google.android.play.core.tasks.**
+
 # Preserve type annotations and signatures for reflection
 -keepattributes *Annotation*
 -keepattributes Signature
