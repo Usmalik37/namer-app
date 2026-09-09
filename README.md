@@ -37,6 +37,13 @@ This app was built to practice the following core Flutter fundamentals:
 - Favorites are stored as a `List` of word pairs, since each "favorite" is a pair of two words
 - Widgets listen to this state and rebuild automatically when it changes
 
+## Branches
+
+| Branch | What it is |
+|---|---|
+| `main` | This — the original Flutter Codelab tutorial code |
+| `my_namer_app` | A fully rebuilt, production-polished version with custom design, modular architecture, and optimized build |
+
 ## Project Status
 
-This is a learning project — built to understand Flutter basics, not intended for production use.
+This is a learning project — built to understand Flutter basics, not intended for production use. See the `my_namer_app` branch for the rebuilt version.
